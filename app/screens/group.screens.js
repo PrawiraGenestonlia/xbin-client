@@ -1,11 +1,15 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import { useTheme } from 'react-navigation';
+import { COLOR } from '../constants';
+import GlobalStyle from './global.stylesheets';
 
-export default function group(props) {
+export default function Group(props) {
+  let theme = useTheme();
   const { navigation } = props;
   return (
-    <View>
-      <Text>group Screen</Text>
+    <View style={GlobalStyle.container}>
+      <Text style={{ color: COLOR[theme].TEXT }}>Group Screen</Text>
     </View>
-  )
+  );
 }

@@ -9,7 +9,8 @@
     "test": "jest",
     "lint": "eslint .",
     "postinstall": "jetifier -r",
-    "podinstall": "cd ios && pod install && cd .."
+    "podinstall": "cd ios && pod install && cd ..",
+    "git-fast-sync": "git add . && git commit -am \"Fast Commit\" && git push origin master"
   },
   "dependencies": {
     "react": "16.9.0",
