@@ -13,6 +13,7 @@
     "git-fast-sync": "git add . && git commit -am \"Fast Commit\" && git push origin master"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.6.2",
     "react": "16.9.0",
     "react-native": "0.61.1",
     "react-native-appearance": "^0.1.0",

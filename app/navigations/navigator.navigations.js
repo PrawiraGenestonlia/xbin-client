@@ -136,7 +136,7 @@ const tabNavigator = createBottomTabNavigator({
     inactiveTintColor: '#FFFFFF',
     style: {
       backgroundColor: '#404040',
-      height: 85,
+      // height: 85,
     },
     tabStyle: {},
   },
