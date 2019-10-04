@@ -8,6 +8,7 @@ import GlobalStyle from './global.stylesheets';
 export default function Login(props) {
   let theme = useTheme();
   const { navigation } = props;
+  //TODO: Add a function
   return (
     <View style={GlobalStyle.container}>
       <Text style={{ color: COLOR[theme].TEXT }}>Login Screen</Text>

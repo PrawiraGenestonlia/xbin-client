@@ -4,6 +4,7 @@ import { useTheme } from 'react-navigation';
 import { COLOR } from '../constants';
 import GlobalStyle from './global.stylesheets';
 
+//TODO: Update
 export default function Favorite(props) {
   let theme = useTheme();
   const { navigation } = props;
