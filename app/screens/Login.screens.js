@@ -4,7 +4,7 @@ import { useTheme } from 'react-navigation';
 import { COLOR } from '../constants';
 import GlobalStyle from './global.stylesheets';
 
-//
+//need to use sign in with apple
 //use apple and google sdks
 export default function Login(props) {
   let theme = useTheme();
