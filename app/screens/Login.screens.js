@@ -5,7 +5,7 @@ import { COLOR } from '../constants';
 import GlobalStyle from './global.stylesheets';
 
 //need to use sign in with apple
-//use apple and google sdks
+//use apple and google sdk
 export default function Login(props) {
   let theme = useTheme();
   const { navigation } = props;
