@@ -7,6 +7,7 @@ import GlobalStyle from './global.stylesheets';
 
 Icon.loadFont();
 
+//render url component
 export default function Xbin(props) {
   let theme = useTheme();
   const { navigation } = props;
