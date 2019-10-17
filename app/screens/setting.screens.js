@@ -4,6 +4,7 @@ import { useTheme } from 'react-navigation';
 import { COLOR } from '../constants';
 import GlobalStyle from './global.stylesheets';
 
+//
 export default function Setting(props) {
   let theme = useTheme();
   const { navigation } = props;
