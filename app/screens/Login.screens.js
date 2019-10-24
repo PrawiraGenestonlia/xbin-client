@@ -6,6 +6,7 @@ import GlobalStyle from './global.stylesheets';
 
 //need to use sign in with apple
 //use apple and google sdk
+//login,sign up, forget password, change password
 export default function Login(props) {
   let theme = useTheme();
   const { navigation } = props;
